@@ -3,15 +3,15 @@
 A simple full-stack project where the **backend (FastAPI)** is used **only for reversing text**, imitating a real backend service.  
 The **frontend (Next.js)** interacts with the backend by sending text input and displaying the reversed result.  
 
-**Deployed on:**  
+🚀 **Deployed on:**  
 - 🖥️ **Backend:** [Render](https://reverse-string.onrender.com)  
 - 🌍 **Frontend:** [Vercel](https://reverse-string-plum.vercel.app)  
 
 ---
 
-## 🛠 Stack
+## 🛠 Tech Stack
 
-
+| **Category**  | **Technology** |
 |--------------|--------------|
 | 🎯 Backend  | Python, FastAPI |
 | 🎨 Frontend | Next.js, React, Tailwind CSS |
