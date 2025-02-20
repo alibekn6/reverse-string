@@ -1,11 +1,12 @@
 "use client";
 import { useState } from "react";
-import axios from "axios";
 
 
 export default function Home() {
   const [result, setResult] = useState("");
   const [input, setInput] = useState("");
+
+  const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL || "https://reverse-string.onrender.com";
 
   const handleReverse = async (e: { preventDefault: () => void; }) => {
     e.preventDefault();
@@ -17,7 +18,7 @@ export default function Home() {
     }
     try {
 
-      const res = await fetch(`https://reverse-string.onrender.com/reverse/?stringToReverse=${input}`);
+      const res = await fetch(`${BACKEND_URL}/reverse/?stringToReverse=${input}`);
       if (!res.ok) throw new Error("Failed to fetch");
 
       const data = await res.json();
