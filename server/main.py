@@ -11,7 +11,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://reverse-string.onrender.com", "http://localhost:3000"],  # Allow only your frontend
+    allow_origins=["https://reverse-string-plum.vercel.app", "http://localhost:3000"],  # Allow only your frontend
     allow_credentials=True,
     allow_methods=["*"],  # Allow all methods (GET, POST, etc.)
     allow_headers=["*"],  # Allow all headers
