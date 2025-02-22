@@ -33,6 +33,8 @@ export default function Home() {
     }
   }
 
+  <script></script>
+
 
   
   return (
