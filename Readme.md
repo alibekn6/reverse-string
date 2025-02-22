@@ -2,7 +2,7 @@
 
 A simple full-stack project where the **backend (FastAPI)** is used **only for reversing text**, imitating a real backend service.  
 The **frontend (Next.js)** interacts with the backend by sending text input and displaying the reversed result.  
-
+(⚠️ Probably server is working too slow !)
  **Deployed on:**  
 -  **Server:** [Render](https://reverse-string.onrender.com)  /reverse/?stringToReverse=some
 -  **Frontend:** [Vercel](https://reverse-string-plum.vercel.app)  
